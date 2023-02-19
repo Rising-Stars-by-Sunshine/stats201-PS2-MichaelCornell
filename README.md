@@ -66,21 +66,22 @@ First, setup and instal [Autogluon](https://github.com/autogluon/autogluon#examp
 | 17 | ARIMA/T1             |   -0.0625109 |  -0.0625109 |        0.010247  |       0.101825  |         0.000183105 |           9 |
 | 18 | ETS/T2               |   -0.0634961 |  -0.0634961 |        0.0102322 |       0.0420156 |         0.00022459  |           4 |
 | 19 | ARIMA/T2             |   -0.0660468 |  -0.0660468 |        0.0101981 |       1.01988   |         0.000184059 |          10 |
+
 ***Figure No.1**. Performance of all Evaluated Models. Note that FeedForward and DeepAR perform quite well.*
 
-<img src="https://raw.githubusercontent.com/Rising-Stars-by-Sunshine/stats201-PS2-MichaelCornell/main/spotlight/figures/figure2.png" height="500" alt="Figure2"/><br/>
+<img src="https://raw.githubusercontent.com/Rising-Stars-by-Sunshine/stats201-PS2-MichaelCornell/main/spotlight/figures/figure2.png" alt="Figure2"/><br/>
 
 ***Figure No.2**. Model predictions when allowed for covariate variables. Holidays and weekends were among the static covariate variables.*
 
-<img src="https://raw.githubusercontent.com/Rising-Stars-by-Sunshine/stats201-PS2-MichaelCornell/main/spotlight/figures/figure3.png" height="500" alt="Figure2"/><br/>
+<img src="https://raw.githubusercontent.com/Rising-Stars-by-Sunshine/stats201-PS2-MichaelCornell/main/spotlight/figures/figure3.png" alt="Figure2"/><br/>
 
 ***Figure No.3**. Same as Figure 2, but to include all collected data.*
 
-<img src="https://raw.githubusercontent.com/Rising-Stars-by-Sunshine/stats201-PS2-MichaelCornell/main/spotlight/figures/figure4.png" height="500" alt="Figure2"/><br/>
+<img src="https://raw.githubusercontent.com/Rising-Stars-by-Sunshine/stats201-PS2-MichaelCornell/main/spotlight/figures/figure4.png" alt="Figure2"/><br/>
 
 ***Figure No.4**. Predictions from SimpleFeedForward/T2, a machine learning model. This model had the second highest score test.*
 
-<img src="https://raw.githubusercontent.com/Rising-Stars-by-Sunshine/stats201-PS2-MichaelCornell/main/spotlight/figures/figure5.png" height="500" alt="Figure2"/><br/>
+<img src="https://raw.githubusercontent.com/Rising-Stars-by-Sunshine/stats201-PS2-MichaelCornell/main/spotlight/figures/figure5.png" alt="Figure2"/><br/>
 
 ***Figure No.5**. Predictions from ARIMA/T1. This model had the third lowest score test.*
 
