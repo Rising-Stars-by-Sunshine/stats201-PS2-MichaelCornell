@@ -7,17 +7,17 @@
 ## Project information
 - **Author**: Michael Cornell, Computation and Design - Computer Science Track, 2026, Duke Kunshan University
 - **Instructor**: Prof. Luyao Zhang, Duke Kunshan University
-- **Disclaimer**: Submissions to the Problem Set 1 for STATS201 Introduction to Machine Learning for Social Science, 2023 Spring Term (Seven Week - First) instructed by Prof. Luyao Zhang at Duke Kunshan University.
+- **Disclaimer**: Submissions to Problem Set 2 for STATS201 Introduction to Machine Learning for Social Science, 2023 Spring Term (Seven Week - First) instructed by Prof. Luyao Zhang at Duke Kunshan University.
 - **Acknowledgments**: 
 Many thanks to Professor Luyao Zhang for her careful instruction and to the authors of the Autogluon support documents.
 
 - **Project Summary**: 
-  - Background and Motivation: Traffic modeling has always been difficult to preform. With the advent of new machine learning models, many new opprotunites arise to help engineers develop better ways to model traffic. 
+  - Background and Motivation: Traffic modeling has always been difficult to perform. With the advent of new machine learning models, many new opportunities arise to help engineers develop better ways to model traffic. 
   - Research Question: What's the best machine learning application to predict traffic modeling, and how can traffic be predicted over time? We will use Autogluon to help us answer this question.
-  - Application Scenario: The reasearch here focuses on trips taken by car at a National level in the United States from 2019-2021. The data comes from a United States government collection of driving behavior. 
-  - Methodology: The package Autogluon was used to predict future driving behavior beyond the scope of the data, and two seperate types of analysis were performed. One allowed for covariate variables, such as whether or not a given day was a holiday or the weekend. The other analysis did not allow for this control. 
-  - Expected Results: We expect to see that traffic follows a weekly pattern, with increased trafic on holidays. We also expect that the machine learning algorithm will pick up on the trend of travel increasing back to normal levels during the recovery from the COVID-19 pandemic. 
-  - Intelectual Merit: This research will show that more advanced machine learning models are more helpful and accurate in predicting future traffic models. The results suggest that other fields relating to data forcasting may greatly benefit from addition of a machine learning model to help predict trends that legacy models may not pick up on.
+  - Application Scenario: The research here focuses on trips taken by car at a National level in the United States from 2019-2021. The data comes from a United States government collection of driving behavior.
+  - Methodology: The package Autogluon was used to predict future driving behavior beyond the scope of the data, and two separate types of analysis were performed. One allowed for covariate variables, such as whether or not a given day was a holiday or a weekend. The other analysis did not allow for this control.
+  - Expected Results: We expect to see that traffic follows a weekly pattern, with increased traffic on holidays. We also expect that the machine learning algorithm will pick up on the trend of travel increasing back to normal levels during the recovery from the COVID-19 pandemic.
+  - Intellectual Merit: This research will show that more advanced machine learning models are more helpful and accurate in predicting future traffic models. The results suggest that other fields relating to data forecasting may greatly benefit from the addition of a machine-learning model to help predict trends that legacy models may not pick up on.
 
 ## Table of Contents
 - [Data](https://github.com/Rising-Stars-by-Sunshine/stats201-PS2-MichaelCornell#data)
@@ -39,8 +39,8 @@ Many thanks to Professor Luyao Zhang for her careful instruction and to the auth
 </div>
 
 ## Code
-First, setup and instal [Autogluon](https://github.com/autogluon/autogluon#example), follow the instructions for **TimeSeriesPredictor**.
-- Availible [here](https://github.com/Rising-Stars-by-Sunshine/stats201-PS2-MichaelCornell/blob/main/code/autogluonTrafficModelPredictor.ipynb)
+First, set up and install [Autogluon](https://github.com/autogluon/autogluon#example), and follow the instructions for **TimeSeriesPredictor**.
+- **TimeSeriesPredictor** is available [here](https://github.com/Rising-Stars-by-Sunshine/stats201-PS2-MichaelCornell/blob/main/code/autogluonTrafficModelPredictor.ipynb)
 
 ## Spotlight
 
@@ -74,15 +74,15 @@ First, setup and instal [Autogluon](https://github.com/autogluon/autogluon#examp
 
 
 <img src="https://raw.githubusercontent.com/Rising-Stars-by-Sunshine/stats201-PS2-MichaelCornell/main/spotlight/figures/figure3.png" alt="Figure2"/><br/>
-***Figure No.3**. Same as Figure 2, but to include all collected data.*
+***Figure No.3**. Same as Figure 2, but includes all collected data.*
 
 
 <img src="https://raw.githubusercontent.com/Rising-Stars-by-Sunshine/stats201-PS2-MichaelCornell/main/spotlight/figures/figure4.png" alt="Figure2"/><br/>
-***Figure No.4**. Predictions from SimpleFeedForward/T2, a machine learning model. This model had the second highest score test.*
+***Figure No.4**. Predictions from SimpleFeedForward/T2, a machine learning model. This model had the second-highest score test.*
 
 
 <img src="https://raw.githubusercontent.com/Rising-Stars-by-Sunshine/stats201-PS2-MichaelCornell/main/spotlight/figures/figure5.png" alt="Figure2"/><br/>
-***Figure No.5**. Predictions from ARIMA/T1. This model had the third lowest score test.*
+***Figure No.5**. Predictions from ARIMA/T1. This model had the third-lowest score test.*
 
 
 ## References
@@ -91,7 +91,7 @@ First, setup and instal [Autogluon](https://github.com/autogluon/autogluon#examp
 - Trips By Distance: https://catalog.data.gov/dataset/trips-by-distance
 ### Code Source
 - Autogluon: https://github.com/autogluon/autogluon
-  - Forcasting a time series: https://auto.gluon.ai/stable/tutorials/timeseries/forecasting-quickstart.html
+  - Forecasting a time series: https://auto.gluon.ai/stable/tutorials/timeseries/forecasting-quickstart.html
 ### Literature
 
 El Khateeb, S., & Shawket, I. M. (2022). A new perception; generating well-being urban public spaces after the era of pandemics. Developments in the Built Environment, 9, 100065. doi:10.1016/j.dibe.2021.100065
