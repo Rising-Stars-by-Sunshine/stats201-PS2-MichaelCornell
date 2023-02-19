@@ -1,24 +1,23 @@
 # Michael Cornell's Project Portfolio
 
-## Problem Set 1 - Collab Notebook:
-[Collab Notebook](https://colab.research.google.com/drive/1UMjh1YQ5M-0-ItNjALH8jQE2FmG7qo74?usp=sharing)
+## Problem Set 2 - Notebook:
 
-[Jupyter Notebook](https://github.com/Rising-Stars-by-Sunshine/stats201-PS1-MichaelCornell/blob/main/Spring2023_Problem_Set_1_MichaelCornell_Ethereum_Blockchain_API.ipynb)
+[Jupyter Notebook](https://github.com/Rising-Stars-by-Sunshine/stats201-PS2-MichaelCornell/blob/main/code/autogluonTrafficModelPredictor.ipynb)
 
 ## Project information
 - **Author**: Michael Cornell, Computation and Design - Computer Science Track, 2026, Duke Kunshan University
 - **Instructor**: Prof. Luyao Zhang, Duke Kunshan University
 - **Disclaimer**: Submissions to the Problem Set 1 for STATS201 Introduction to Machine Learning for Social Science, 2023 Spring Term (Seven Week - First) instructed by Prof. Luyao Zhang at Duke Kunshan University.
 - **Acknowledgments**: 
-  - Prof. Luyao Zhang
+Many thanks to Professor Luyao Zhang for her careful instruction and to the authors of the Autogluon support documents.
 
 - **Project Summary**: 
-  Information on the blockchain comes from a variety of nodes. How can we query information to get a better understanding of how the blockchain works and do some basic analysis on the data we recieve? First, multiple full nodes are queried for ethereum data. Secondly, specific fungible and non fungible tokens are chosen for further analysis. Finally, results are drawn about these tokens. The results show that the ethereum network is diverse and full of many creative uses of the blockchain. These projects give a platform for others to draw inspiration on what the ethereum blockchain can do.
+  Traffic modeling has always been difficult to preform. With the advent of new machine learning models, many new opprotunites arise to help engineers develop better ways to model traffic. What's the best machine learning application to predict traffic modeling, and how can traffic be predicted over time? The reasearch here focuses on trips taken by car at a National level in the United States from 2019-2021. The data comes from a United States government collection of driving behavior. The package Autogluon was used to predict future driving behavior beyond the scope of the data, and two seperate types of analysis were performed. One allowed for covariate variables, such as whether or not a given day was a holiday or the weekend. The other analysis did not allow for this control. This research will show that more advanced machine learning models are more helpful and accurate in predicting future traffic models. The results suggest that other fields relating to data forcasting may greatly benefit from addition of a machine learning model to help predict trends that legacy models may not pick up on.
 
 ## Table of Contents
-- [Data](https://github.com/Rising-Stars-by-Sunshine/stats201-PS1-MichaelCornell#data)
-- [Code](https://github.com/Rising-Stars-by-Sunshine/stats201-PS1-MichaelCornell#code)
-- [Spotlight](https://github.com/Rising-Stars-by-Sunshine/stats201-PS1-MichaelCornell#spotlight)
+- [Data](https://github.com/Rising-Stars-by-Sunshine/stats201-PS2-MichaelCornell#data)
+- [Code](https://github.com/Rising-Stars-by-Sunshine/stats201-PS2-MichaelCornell#code)
+- [Spotlight](https://github.com/Rising-Stars-by-Sunshine/stats201-PS2-MichaelCornell#spotlight)
 
 
 
@@ -27,7 +26,7 @@
 
 |                    |                                                    **Data Links**                                                              |                       **Data Description**                                      |
 |--------------------|:------------------------------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------:|
-| **Queried Data**   | [Queried Data](https://github.com/Rising-Stars-by-Sunshine/stats201-PS1-MichaelCornell/blob/main/data/Queried_Data/data.csv)   | Abstracts and titles from various papers on reinforcment learning               |
+| **Queried Data**   | [Queried Data](https://github.com/Rising-Stars-by-Sunshine/stats201-PS1-MichaelCornell/blob/main/data/Queried_Data)   | Abstracts and titles from various papers on reinforcment learning               |
 | **Processed Data** | [Processed Data](https://github.com/Rising-Stars-by-Sunshine/stats201-PS1-MichaelCornell/tree/main/data/Processed_Data)        | Data has been processed using network analysis and natural language processing. |
 
 </div>
